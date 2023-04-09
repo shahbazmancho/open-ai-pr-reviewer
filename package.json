@@ -1,0 +1,17 @@
+{
+  "name": "open-ai-pr-reviewer",
+  "version": "1.0.0",
+  "description": "Experiment to craete an autonomus PR review",
+  "main": "index.js",
+  "repository": "https://github.com/shahbazmancho/open-ai-pr-reviewer",
+  "author": "shahbazmancho",
+  "license": "MIT",
+  "scripts": {
+    "review": "node src/review.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.7",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
